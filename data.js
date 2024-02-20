@@ -4,7 +4,7 @@ const { exec } = require('child_process');
 
 const app = express();
 
-POSTGRES_URL="postgres://default:2jsLywPhBUR0@ep-proud-frost-a43l5fbh-pooler.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require"
+POSTGRES_URL="postgres://default:EkF2xdqZaY6f@ep-divine-meadow-a1ukjzx0-pooler.ap-southeast-1.aws.neon.tech:5432/verceldb?sslmode=require"
 
 const pool = new Pool({
   connectionString: POSTGRES_URL ,
